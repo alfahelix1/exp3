@@ -23,4 +23,8 @@ Program 8: Tuple Operations on Marks
 Program 9: Tuple Unpacking (Student Record)
 Program 10: Counting Elements in Tuple (Attendance)
 
+Difference between tuple and list 
+Use a list when you need a collection of items that may need to be changed, added to, or removed during the program's execution. They offer flexibility for dynamic data manipulation.
+Use a tuple when you have a fixed collection of related data where the integrity of the data is important and should not be accidentally altered. Their immutability helps ensure data remains constant and can offer minor performance benefits. 
+
 CONCLUSION: We learned how to create tuples, access their elements using indexing, and perform operations such as concatenation, repetition, counting, and tuple unpacking. The immutability property of tuples was clearly understood by comparing tuples with lists and observing memory locations using the id() function. Built-in functions like max(), min(), len(), sum(), and count() were also used effectively. Thus, this experiment helped in understanding how tuples are efficiently used to store fixed and unchangeable data in Python programs.
